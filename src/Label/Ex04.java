@@ -45,6 +45,10 @@ public class Ex04 extends Application{
 				
 			}
 		});
+		//바로 위 코드보다 간편함.
+		lbl.setOnMousePressed(e-> {
+			lbl.setRotate(0);
+		});
 
 		//lbl.setOnMouseEntered(null);
 		//lbl.setOnMouseDragExited(null);
